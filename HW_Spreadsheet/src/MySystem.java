@@ -30,6 +30,10 @@ public class MySystem {
 
         System.out.println(chart + " change " + name + " " + value + ".");
 
+        notifyChanged();
+    }
+
+    private void notifyChanged() {
         for (var c : charts)
             c.Display(dataList);
     }
