@@ -7,6 +7,10 @@ public class MySystem {
     private final List<IChart> charts = new LinkedList<>();
 
     public void AddData(String name, int value) {
+        var matchList = getMatchedData(name);
+
+        if(!matchList.isEmpty()) return;
+
         var newData = new Data(name, value);
 
         dataList.add(newData);
@@ -20,7 +24,7 @@ public class MySystem {
     public void ChangeData(String chart, String name, int value) {
         if (!containsChart(chart)) return;
 
-        var matchList = dataList.stream().filter(d -> d.getName().equals(name)).toList();
+        var matchList = getMatchedData(name);
 
         if (matchList.isEmpty()) {
             var newData = new Data(name, value);
@@ -33,6 +37,10 @@ public class MySystem {
         System.out.println(chart + " change " + name + " " + value + ".");
 
         notifyChanged();
+    }
+
+    private List<Data> getMatchedData(String dataName) {
+        return dataList.stream().filter(d -> d.getName().equals(dataName)).toList();
     }
 
     private void notifyChanged() {
