@@ -18,6 +18,8 @@ public class MySystem {
     }
 
     public void ChangeData(String chart, String name, int value) {
+        if (!containsChart(chart)) return;
+
         var matchList = dataList.stream().filter(d -> d.getName().equals(name)).toList();
 
         if (matchList.isEmpty()) {
@@ -36,6 +38,13 @@ public class MySystem {
     private void notifyChanged() {
         for (var c : charts)
             c.Display(dataList);
+    }
+
+    public boolean containsChart(String chartName) {
+        for (var chart : charts) {
+            if (chart.getClass().getSimpleName().equals(chartName)) return true;
+        }
+        return false;
     }
 
     private static class ChartFactory {
