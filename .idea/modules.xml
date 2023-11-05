@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/HW_NullObject/HW_NullObject.iml" filepath="$PROJECT_DIR$/HW_NullObject/HW_NullObject.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW_Spreadsheet/HW_Spreadsheet.iml" filepath="$PROJECT_DIR$/HW_Spreadsheet/HW_Spreadsheet.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW_TextComposition/HW_TextComposition.iml" filepath="$PROJECT_DIR$/HW_TextComposition/HW_TextComposition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_FileViewer/HW_FileViewer.iml" filepath="$PROJECT_DIR$/HW_FileViewer/HW_FileViewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_PowerfulDocumentViewer/HW_PowerfulDocumentViewer.iml" filepath="$PROJECT_DIR$/HW_PowerfulDocumentViewer/HW_PowerfulDocumentViewer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quiz/Quiz.iml" filepath="$PROJECT_DIR$/Quiz/Quiz.iml" />
       <module fileurl="file://$PROJECT_DIR$/SoftwareEngineeringPractice.iml" filepath="$PROJECT_DIR$/SoftwareEngineeringPractice.iml" />
     </modules>
