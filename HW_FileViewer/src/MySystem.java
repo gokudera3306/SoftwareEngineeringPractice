@@ -2,29 +2,29 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MySystem {
-    private final Map<String, ITextView> textViewMap = new HashMap<>();
+    private final Map<String, IView> viewMap = new HashMap<>();
 
     public void addTextView(String name, String text) {
         var newTextView = new TextView(name, text);
 
-        textViewMap.put(name, newTextView);
+        viewMap.put(name, newTextView);
     }
 
     public void addElement(String name, String element) throws Exception {
-        var textView = textViewMap.get(name);
+        var view = viewMap.get(name);
 
-        var newTextView = switch (element) {
-            case "scrollBar" -> new ScrollBarDecorator(textView);
-            case "thickBlackBorder" -> new ThickBlackBorderDecorator(textView);
+        var newView = switch (element) {
+            case "scrollBar" -> new ScrollBarDecorator(view);
+            case "thickBlackBorder" -> new ThickBlackBorderDecorator(view);
             default -> throw new Exception("");
         };
 
-        textViewMap.put(name, newTextView);
+        viewMap.put(name, newView);
     }
 
     public void display(String name) {
-        var textView = textViewMap.get(name);
-        textView.display();
+        var view = viewMap.get(name);
+        view.display();
         System.out.println();
     }
 }

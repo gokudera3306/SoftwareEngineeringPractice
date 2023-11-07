@@ -1,4 +1,4 @@
-public class TextView implements ITextView {
+public class TextView implements IView {
     private final String name;
     private final String text;
 

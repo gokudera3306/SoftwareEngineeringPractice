@@ -9,8 +9,8 @@ public class Main {
         var system = new MySystem();
 
         try {
-//            var reader = new BufferedReader(new FileReader(args[0]));
-            var reader = new BufferedReader(new FileReader("HW_FileViewer/src/sampleInput"));
+            var reader = new BufferedReader(new FileReader(args[0]));
+//            var reader = new BufferedReader(new FileReader("HW_FileViewer/src/sampleInput"));
 
             String line;
             while ((line = reader.readLine()) != null && !line.isEmpty()) {

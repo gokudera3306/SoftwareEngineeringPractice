@@ -1,7 +1,7 @@
-public abstract class BaseDecorator implements ITextView {
-    protected final ITextView textView;
+public abstract class BaseDecorator implements IView {
+    protected final IView view;
 
-    public BaseDecorator(ITextView textView) {
-        this.textView = textView;
+    public BaseDecorator(IView view) {
+        this.view = view;
     }
 }

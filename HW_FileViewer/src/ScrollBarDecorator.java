@@ -1,11 +1,11 @@
 public class ScrollBarDecorator extends BaseDecorator {
-    public ScrollBarDecorator(ITextView textView) {
-        super(textView);
+    public ScrollBarDecorator(IView view) {
+        super(view);
     }
 
     @Override
     public void display() {
-        textView.display();
+        view.display();
 
         System.out.print(" scrollBar");
     }

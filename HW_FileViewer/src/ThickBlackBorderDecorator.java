@@ -1,11 +1,11 @@
 public class ThickBlackBorderDecorator extends BaseDecorator {
-    public ThickBlackBorderDecorator(ITextView textView) {
-        super(textView);
+    public ThickBlackBorderDecorator(IView view) {
+        super(view);
     }
 
     @Override
     public void display() {
-        textView.display();
+        view.display();
 
         System.out.print(" thickBlackBorder");
     }
