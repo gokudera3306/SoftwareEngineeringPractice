@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/HW_PowerfulDocumentViewer/HW_PowerfulDocumentViewer.iml" filepath="$PROJECT_DIR$/HW_PowerfulDocumentViewer/HW_PowerfulDocumentViewer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quiz/Quiz.iml" filepath="$PROJECT_DIR$/Quiz/Quiz.iml" />
       <module fileurl="file://$PROJECT_DIR$/SoftwareEngineeringPractice.iml" filepath="$PROJECT_DIR$/SoftwareEngineeringPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_ChocolateBoiler/HW_ChocolateBoiler.iml" filepath="$PROJECT_DIR$/HW_ChocolateBoiler/HW_ChocolateBoiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_GUIApplication/HW_GUIApplication.iml" filepath="$PROJECT_DIR$/HW_GUIApplication/HW_GUIApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_RTFConverter/HW_RTFConverter.iml" filepath="$PROJECT_DIR$/HW_RTFConverter/HW_RTFConverter.iml" />
     </modules>
   </component>
 </project>
