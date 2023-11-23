@@ -12,6 +12,12 @@
       <module fileurl="file://$PROJECT_DIR$/HW_ChocolateBoiler/HW_ChocolateBoiler.iml" filepath="$PROJECT_DIR$/HW_ChocolateBoiler/HW_ChocolateBoiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW_GUIApplication/HW_GUIApplication.iml" filepath="$PROJECT_DIR$/HW_GUIApplication/HW_GUIApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW_RTFConverter/HW_RTFConverter.iml" filepath="$PROJECT_DIR$/HW_RTFConverter/HW_RTFConverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_PrintOut/HW_PrintOut.iml" filepath="$PROJECT_DIR$/HW_PrintOut/HW_PrintOut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_SchematicCaptureSystem/HW_SchematicCaptureSystem.iml" filepath="$PROJECT_DIR$/HW_SchematicCaptureSystem/HW_SchematicCaptureSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_EmailHandler/HW_EmailHandler.iml" filepath="$PROJECT_DIR$/HW_EmailHandler/HW_EmailHandler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_WindowFramework/HW_WindowFramework.iml" filepath="$PROJECT_DIR$/HW_WindowFramework/HW_WindowFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_ImmutableObject/HW_ImmutableObject.iml" filepath="$PROJECT_DIR$/HW_ImmutableObject/HW_ImmutableObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW_ThreadPool/HW_ThreadPool.iml" filepath="$PROJECT_DIR$/HW_ThreadPool/HW_ThreadPool.iml" />
     </modules>
   </component>
 </project>

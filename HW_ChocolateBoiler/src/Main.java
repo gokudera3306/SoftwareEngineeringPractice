@@ -6,8 +6,8 @@ public class Main {
         var boiler = ChocolateBoiler.getInstance();
 
         try {
-//            var reader = new BufferedReader(new FileReader(args[0]));
-            var reader = new BufferedReader(new FileReader("HW_ChocolateBoiler/src/sampleInput"));
+            var reader = new BufferedReader(new FileReader(args[0]));
+//            var reader = new BufferedReader(new FileReader("HW_ChocolateBoiler/src/sampleInput"));
 
             String line;
             while ((line = reader.readLine()) != null && !line.isEmpty()) {
